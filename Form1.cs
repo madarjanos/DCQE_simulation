@@ -330,7 +330,7 @@ namespace dcqe_test
                 //van aktiv foton, nincs vege a kiserletnek
                 finished = false;
 
-                //a foton mozog tovabb jobbra lefele a kepen
+                //a foton mozog tovabb jobbra felfele a kepen
                 int oldpicX = idlers[i].picX;
                 idlers[i].picX += speed_pixel_per_cycle;
                 idlers[i].picY -= speed_pixel_per_cycle;
